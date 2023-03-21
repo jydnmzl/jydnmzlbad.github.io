@@ -1,0 +1,447 @@
+@font-face {
+  font-family: montserrat;
+  src: url(/Website/montserrat/Montserrat-Regular.otf) ;
+}
+@font-face {
+  font-family: montserrat medium;
+  src: url(/Website/montserrat/Montserrat-Medium.otf) ;
+}
+
+/* general rules */
+
+body {
+  background-color: #333;
+  font-family: montserrat, arial;
+}
+
+h1 {
+  font-family: Montserrat medium;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+/* list styles */
+
+ul {
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 95%;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* class styles */
+
+.heading {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 20px;
+ }
+
+.sub {
+  padding: 15px;
+}
+
+
+/* Projects page styles */
+
+.imgcontainer {
+  padding: 25px 0px 25px 25px;
+  vertical-align: middle;
+  background-color: #17171D;
+}
+
+
+.imgcontainer img {
+  vertical-align: middle;
+}
+
+#magtable td{
+    vertical-align: middle;
+    padding: 5px;
+
+}
+
+#videotable td{
+    vertical-align: middle;
+    padding: 5px;
+
+}
+#videotable h2{
+    transition: 400ms;
+}
+#videotable h2:hover{
+  transform: scale(1.05);
+}
+
+#teatable td{
+    vertical-align: middle;
+    padding: 5px;
+
+}
+#teatable h2{
+  transition: 400ms;
+}
+#teatable h2:hover{
+transform: scale(1.05);
+}
+
+#teatable img{
+  transition: 300ms all ease;
+}
+
+#teatable img:hover{
+    transform: translateY(-10px);
+  opacity: 75%;
+}
+#LBtable td{
+  vertical-align: middle;
+  padding: 5px;
+}
+#LBtable img{
+  transition: 300ms all ease;
+}
+
+#LBtable img:hover{
+    transform: translateY(-10px);
+  opacity: 75%;
+}
+#LBtable h2{
+  transition: 400ms;
+}
+#LBtable h2:hover{
+transform: scale(1.05);
+}
+/* JayLo logo and copy */
+
+#jplogo {
+  float: right;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  vertical-align: middle;
+  height: auto;
+}
+
+.jaylocopy p {
+    background-color: #17171D;
+    padding-left: 50px;
+    vertical-align: middle;
+}
+
+/* About image and bio */
+
+#aboutimg {
+  float: left;
+  width: 45%;
+  height: auto;
+  padding: 15px;
+  padding-top: 120px;
+}
+
+#bio {
+  padding: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  background-color: #17171D;
+}
+
+#bubbyimg {
+  float: right;
+  width: 45%;
+  height: auto;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+/* Homepage image buttons */
+
+#jydnpink {
+  opacity: 100%;
+  width: auto;
+  padding-top: 120px;
+}
+
+.imgbtns {
+    display: inline-block;
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.imgbtns img {
+  transition: 300ms all ease;
+}
+
+.imgbtns img:hover {
+  transform: translateY(10px);
+  opacity: 75%;
+}
+
+.question{
+  text-decoration: none;
+  padding: 50px;
+}
+
+/* Homepage buttons */
+
+#explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+#contactbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px; 
+}
+
+
+.button {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black;
+
+}
+
+.button1:hover {
+  background-color: #80C7C0;
+  color: white;
+}
+
+/* Navigation bar and logo */
+
+#logo {
+  display: inline-block;
+  padding: 10px;
+  position: fixed;
+top: 0;
+z-index: 10;
+}
+
+#navbtns
+{ 
+  display:inline-block;
+  z-index:1;
+  position:fixed;
+  top:0;
+  background-color:#333;
+  width:100%;
+  height:120px;
+  list-style-type:none;
+  font-family: Montserrat semibold;
+  font-size: 25px;
+
+}
+
+.active {
+  background-color: #666D65;
+}
+
+
+/* Page heading ids */
+
+#projecthead {
+  padding-top: 120px;
+}
+
+#jaylohead {
+  padding-top: 120px;
+}
+
+#abouthead {
+  padding-top: 120px;
+}
+
+#contacthead {
+  padding-top: 120px;
+}
+
+/* JayLo gallery */
+
+div.gallery {
+  margin: 5px;
+  padding: 5px;
+  float: left;
+  width: 30%;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: montserrat light;
+  color: white;
+}
+
+/* Contact page styles */
+
+#form1 {
+    color: white;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#table1{
+    background-color: #666D65;
+    vertical-align: middle;
+}
+#table1 td{
+    vertical-align: middle;
+    width: 250px;
+    padding: 15px;
+}
+#table1 input, select, textarea{
+    width: 200px;
+}
+#subbtn{
+    background-color: black;
+    color: white;
+    font-family: montserrat;
+    border: none;
+    padding: 10px;
+    transition: 400ms;
+}
+#subbtn:hover{
+    background-color: #125688;
+}
+
+#rstbtn{
+    background-color: black;
+    color: white;
+    font-family: montserrat;
+    border: none;
+    padding: 10px;
+    transition: 400ms;
+
+}
+#rstbtn:hover{
+    background-color: #bb0000;
+}
+
+#msg{
+    height: 100px;
+    font-family: montserrat;
+}
+fieldset{
+    padding: 10px;
+    text-align: center;
+    border: #777 solid 1px;
+}
+/* social buttons */
+
+#socialbtns {
+  display: flex;
+  justify-content: center;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/*Media Queries*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)
+{
+
+}

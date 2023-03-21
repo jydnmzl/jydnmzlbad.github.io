@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Jayden Mizal Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="cssreset.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="shortcut icon" type="image/jpg" href="assets/JM logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+			<nav>
+				<div id="logo"><a href="Homepage.html"><img src="assets/JM logo.png" width="100px" height="100px" alt="logo"></a>
+				</div>
+					<ul id="navbtns">
+					  <li><a class="active" href="contact.html">Contact</a></li>
+					  <li><a href="about.html">About</a></li>
+					  <li><a href="jaylo.html">JayLo Builds</a></li>
+					  <li><a href="projects.html">Projects</a></li>
+					  <li><a href="Homepage.html">Home</a></li>
+					</ul>
+			</nav>
+	</header>
+	<main>
+		<h1 id="contacthead">Contact</h1>
+		<h2 class="sub">Get in touch</h2>
+
+	<div id="form1">
+		<form action="mailto:jmizal01@guelphhumber.ca" method="post">
+			<fieldset>
+				<legend>Contact Information</legend>
+				<table id="table1">
+					<tr>
+						<td>
+							<label for="fname">First name</label>
+						</td>
+						<td>
+							<input type="text" name="fname" id="fname" placeholder="Enter First Name" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="lname">Last name</label>
+						</td>
+						<td>
+							<input type="text" name="lname" id="lname" placeholder="Enter Last Name" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="email">Email</label>
+						</td>
+						<td>
+							<input type="text" name="email" id="email" placeholder="Enter Email" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="subject">Reason for Contact</label>
+						</td>
+						<td>
+							<select name="subject" id="subject" required>
+								<option value="">Select subject</option>
+								<option value="job">Job Offer</option>
+								<option value="question">Inquiries</option>
+								<option value="Other">Other</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="msg">Message</label>
+						</td>
+						<td>
+							<textarea type="text" name="msg" id="msg" placeholder="Enter Message" required></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="reset" name="reset" id="rstbtn" value="Reset" onclick='alert("Data Reset")'></td>	
+						<td>
+						<input type="submit" name="submit" id="subbtn" value="Submit"></td>
+					</tr>
+	
+
+				</table>
+
+
+			</fieldset>
+
+		</form>
+
+	</div>
+	</main>
+	<footer>
+				<div id="socialbtns">
+					<a target="_blank" href="https://www.linkedin.com/in/jayden-mizal-30a831181/" class="fa fa-linkedin"></a>
+					<a target="_blank" href="https://www.youtube.com/channel/UCImq9vUCWZ4nmPBK4SXqyBw" class="fa fa-youtube"></a>
+					<a target="_blank" href="https://www.instagram.com/jaylobuilds" class="fa fa-instagram"></a>
+				</div>
+	</footer>
+
+</body>
+
+</html>
